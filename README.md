@@ -34,5 +34,11 @@ After downloading, place the dataset inside your project folder.
 
 ---
 
-## 📁 Project Structure
+## 📈 Key Insights
+- Dataset is **extremely imbalanced** (fraud cases are <1%).  
+- Fraudulent transactions tend to have **lower amounts**.  
+- PCA features **V10, V14, V17** strongly correlate with fraud.  
+- Fraud does not occur uniformly over time; some time windows have higher fraud activity.  
+- Density plots show clear separations between fraud vs non-fraud for several PCA components.
+
 
